@@ -198,19 +198,55 @@ body {
 }
 
 @media (max-width: 600px) {
-    .contador-grid {
-        max-width: 100%;
-        gap: 10px;
+
+    .contador{
+
+        top:3.5%;
+        width:94%;
+
     }
 
-    .numero {
-        font-size: 32px;
+    .contador h2{
+
+        font-size:1.55rem;
+        letter-spacing:5px;
+        line-height:1.15;
+
     }
 
-    .legenda {
-        font-size: 10px;
-        letter-spacing: 2px;
+    .contador h2 span{
+
+        font-size:2rem;
+        margin-top:-2px;
+
     }
+
+    #tempo{
+
+        margin-top:18px;
+
+    }
+
+    .contador-grid{
+
+        max-width:100%;
+        gap:6px;
+
+    }
+
+    .numero{
+
+        font-size:34px;
+
+    }
+
+    .legenda{
+
+        font-size:10px;
+        letter-spacing:2px;
+
+    }
+
 }
 
 /* ===========================
