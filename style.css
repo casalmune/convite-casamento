@@ -86,7 +86,13 @@ body {
     align-items: center;
     background: #000;
 }
-
+.pagina img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
 /* ===========================
    NOME DO CONVIDADO
 =========================== */
